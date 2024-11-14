@@ -1,5 +1,5 @@
 version: '3'
-networks:
+network
   default:
      driver: bridge
 services:  # Before Running all the services first start the sqlserver separately as docker-compose up sqlserver and then start other services
